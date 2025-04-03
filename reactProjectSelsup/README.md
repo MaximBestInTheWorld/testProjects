@@ -6,60 +6,60 @@
 
 Решение необходимо оформить в виде одного файла со всеми компонентами и типами которые используются.
 
-interface Param {
-   id: number;
-   name: string;
-   type: ‘string’;
-}
-interface ParamValue {
-    paramId: number;
-    value: string;
-}
-interface Model {
-    paramValues: ParamValue[];
-    colors: Color[];
-}
-interface Props {
-    params: Param[];
-    model: Model;
-}
-class ParamEditor extends React.Component<Props, State> {
-    public getModel(): Model {
-    }
-}
-
-Пример структуры:
-params:
-[
-  {
-    "id": 1,
-    "name": "Назначение"
-  },
-  {
-    "id": 2,
-    "name": "Длина"
-  }
-]
-model:
-{
-  "paramValues": [
-    {
-      "paramId": 1,
-      "value": "повседневное"
-    },
-    {
-      "paramId": 2,
-      "value": "макси"
-    }
-  ] 
-}
-
-Пример как должен выглядеть редактор для указанных моделей:
-![Alt text](image.png)
+interface Param {  
+   id: number;  
+   name: string;  
+   type: ‘string’;  
+}  
+interface ParamValue {  
+    paramId: number;  
+    value: string;  
+}  
+interface Model {  
+    paramValues: ParamValue[];  
+    colors: Color[];  
+}  
+interface Props {  
+    params: Param[];  
+    model: Model;  
+}  
+class ParamEditor extends React.Component<Props, State> {  
+    public getModel(): Model {  
+    }  
+}  
+  
+Пример структуры:  
+params:  
+[  
+{  
+    "id": 1,  
+    "name": "Назначение"  
+  },  
+  {  
+    "id": 2,  
+    "name": "Длина"  
+  }  
+]  
+model:  
+{  
+  "paramValues": [  
+    {  
+      "paramId": 1,  
+      "value": "повседневное"  
+    },  
+    {  
+      "paramId": 2,  
+      "value": "макси"  
+    }  
+  ]   
+}  
+  
+Пример как должен выглядеть редактор для указанных моделей:  
+![Alt text](image.png)  
 
 # Реализация
 
-Основной файл с логикой: reactProjectSelsup/src/components/ParamEditor.jsx
-Файл со стилями: reactProjectSelsup/src/components/ParamEditor.css
-App.jsx: reactProjectSelsup/src/App.jsx
+Основной файл с логикой: reactProjectSelsup/src/components/ParamEditor.jsx  
+Файл со стилями: reactProjectSelsup/src/components/ParamEditor.css  
+App.jsx: reactProjectSelsup/src/App.jsx  
 index.jsx: reactProjectSelsup/src/index.jsx
