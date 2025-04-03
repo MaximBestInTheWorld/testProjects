@@ -28,7 +28,7 @@ class ParamEditor extends React.Component<Props, State> {
     }  
 }  
   
-**Пример структуры:  
+**Пример структуры:**  
 params:  
 [  
 {  
@@ -54,12 +54,12 @@ model:
   ]   
 }  
   
-**Пример как должен выглядеть редактор для указанных моделей:  
+**Пример как должен выглядеть редактор для указанных моделей:**  
 ![Alt text](image.png)  
 
 # Реализация
 
-**Основной файл с логикой: [reactProjectSelsup/src/components/ParamEditor.jsx](https://github.com/MaximBestInTheWorld/testProjects/blob/main/reactProjectSelsup/src/components/ParamEditor.jsx)  
-**Файл со стилями: [reactProjectSelsup/src/components/ParamEditor.css](https://github.com/MaximBestInTheWorld/testProjects/blob/main/reactProjectSelsup/src/components/ParamEditor.css)  
-**App.jsx: [reactProjectSelsup/src/App.jsx](https://github.com/MaximBestInTheWorld/testProjects/blob/main/reactProjectSelsup/src/App.jsx)  
-**index.jsx: [reactProjectSelsup/src/index.jsx](https://github.com/MaximBestInTheWorld/testProjects/blob/main/reactProjectSelsup/src/index.jsx)  
+**Основной файл с логикой:** [reactProjectSelsup/src/components/ParamEditor.jsx](https://github.com/MaximBestInTheWorld/testProjects/blob/main/reactProjectSelsup/src/components/ParamEditor.jsx)  
+**Файл со стилями:** [reactProjectSelsup/src/components/ParamEditor.css](https://github.com/MaximBestInTheWorld/testProjects/blob/main/reactProjectSelsup/src/components/ParamEditor.css)  
+**App.jsx:** [reactProjectSelsup/src/App.jsx](https://github.com/MaximBestInTheWorld/testProjects/blob/main/reactProjectSelsup/src/App.jsx)  
+**index.jsx:** [reactProjectSelsup/src/index.jsx](https://github.com/MaximBestInTheWorld/testProjects/blob/main/reactProjectSelsup/src/index.jsx)  
