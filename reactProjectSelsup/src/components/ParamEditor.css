@@ -1,0 +1,21 @@
+.param-editor {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .param-row {
+    margin-bottom: 15px;
+  }
+  
+  .param-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .param-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
